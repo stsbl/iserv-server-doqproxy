@@ -1,0 +1,20 @@
+Source: stsbl-iserv-server-doqproxy
+Section: non-free/misc
+Priority: optional
+Maintainer: IServ <info@iserv.eu>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-iserv,
+Standards-Version: 4.5.1
+Homepage: ${iserv:Homepage}
+
+Package: stsbl-iserv-server-doqproxy
+Architecture: all
+Xb-Private-Iserv-Revision: ${iserv:Revision}
+Depends: ${misc:Depends},
+  ${perl:Depends},
+  iserv-update,
+Description: Stsbl-iserv DoQ-Proxy-Server
+ Just a silly placeholder description. If you have found this as a reviewer,
+ please ask the developer to replace it.
+Tag: suite::iserv, suite::iserv:bundle-cloud, suite::iserv:bundle-full, suite::iserv:portal, role::plugin
