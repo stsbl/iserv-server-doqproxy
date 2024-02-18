@@ -1,5 +1,5 @@
-stsbl-iserv-server-doqproxy (23.03.14-3) UNRELEASED; urgency=medium
+stsbl-iserv-server-doqproxy (24.02.18.1) stable; urgency=medium
 
   * Initial release
 
- -- IServ <info@iserv.eu>  Tue, 14 Mar 2023 16:31:39 +0100
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Sun, 18 Feb 2024 12:05:53 +0100
