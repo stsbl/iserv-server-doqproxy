@@ -1,20 +1,22 @@
 Source: stsbl-iserv-server-doqproxy
-Section: non-free/misc
+Section: misc
 Priority: optional
-Maintainer: IServ <info@iserv.eu>
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
 Build-Depends:
  debhelper-compat (= 13),
  dh-sequence-iserv,
+ dh-sequence-stsbl,
 Standards-Version: 4.5.1
-Homepage: ${iserv:Homepage}
+Homepage: https://it.stsbl.de/
 
 Package: stsbl-iserv-server-doqproxy
 Architecture: all
 Xb-Private-Iserv-Revision: ${iserv:Revision}
 Depends: ${misc:Depends},
   ${perl:Depends},
+  iserv-ssl,
   iserv-update,
-Description: Stsbl-iserv DoQ-Proxy-Server
- Just a silly placeholder description. If you have found this as a reviewer,
- please ask the developer to replace it.
-Tag: suite::iserv, suite::iserv:bundle-cloud, suite::iserv:bundle-full, suite::iserv:portal, role::plugin
+  doq-proxy,
+Description: DoQ-Proxy-Server für IServ
+ Stellt einen Proxy für DNS-Zugriff über DNS-over-QUIC zur Verfügung.
+Tag: suite::iserv
